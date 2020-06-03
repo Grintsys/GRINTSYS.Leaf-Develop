@@ -1,5 +1,4 @@
 {
- "actions": [],
  "allow_rename": 1,
  "creation": "2020-05-21 09:15:36.501644",
  "doctype": "DocType",
@@ -63,7 +62,8 @@
   "taxes_and_charges",
   "apply_discount_on",
   "accounting_dimensions_section",
-  "cost_center"
+  "cost_center",
+  "full_name"
  ],
  "fields": [
   {
@@ -435,11 +435,15 @@
    "hidden": 1,
    "label": "Code Name",
    "unique": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Name"
   }
  ],
  "icon": "icon-cog",
- "links": [],
- "modified": "2020-05-22 16:13:18.026412",
+ "modified": "2020-06-03 11:45:35.454320",
  "modified_by": "Administrator",
  "module": "Point Of Sales",
  "name": "Point Of Sale Profile",
